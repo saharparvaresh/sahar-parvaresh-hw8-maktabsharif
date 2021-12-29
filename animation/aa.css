@@ -1,0 +1,25 @@
+body {
+    background: green;
+    margin: 0%;
+    padding: 0%;
+}
+
+#runner {
+    background: url(/capguy-walk-1472.png) no-repeat;
+    width: 184px;
+    height: 352px;
+    animation: walk 2s steps(8) infinite;
+    position: absolute;
+    transform: translate( -50%);
+    left: 50%;
+    top: 50%;
+}
+
+@keyframes walk {
+    form {
+        background-position: 0;
+    }
+    to {
+        background-position: -810px;
+    }
+}
